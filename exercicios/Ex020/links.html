@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+           color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: aqua;
+            color: blue;
+
+        }
+        .especial::before{
+            content: '⮜';
+            color: blue;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        
+        .especial::after{
+            content: '⮞';
+            color: blue;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@tribuus3983" target="_blank">Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/ryan_pereira00/"target="_blank" class="especial">Instagram</a></li>
+        <li><a href="https://x.com/"target="_blank" class="especial">twitter</a></li>
+    </ul>
+</body>
+</html>
