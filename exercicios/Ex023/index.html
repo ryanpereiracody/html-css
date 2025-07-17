@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            
+
+        }
+        tr.linha2{
+            background-color: lightblue;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        td.dado{
+            background-color: yellow;
+        }
+        td.titulo{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <table>
+         <tr>
+            <td class="titulo"><strong>NOME</strong></td>
+            <td class="titulo"><strong>CPF</strong></td>
+            <td class="titulo"><strong>TELEFONE</strong></td>
+         </tr>
+         <tr class="linha2">
+            <td>JOAO</td>
+            <td >000.000.000-00</td>
+            <td>(61) 99991-0999</td>
+         </tr>
+         <tr>
+            <td class="dado">GABRIEL</td>
+            <td>000.000.000-00</td>
+            <td>(61) 99991-0999</td>
+         </tr>
+          <tr class="linha2">
+            <td>PEDRO</td>
+            <td>000.000.000-00</td>
+            <td>(61) 99991-0999</td>
+         </tr>
+    </table>
+</body>
+</html>
